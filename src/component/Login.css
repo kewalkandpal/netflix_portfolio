@@ -1,0 +1,84 @@
+.login{
+    position: relative;
+    height: 100%;
+    background: url("https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2022/01/14172326/netflix.jpg");
+    background-size: cover;
+}
+
+.login_logo{
+    position: fixed;
+    left: 0;
+    padding-left: 20px;
+    object-fit: contain;
+    width: 150px;
+}
+.login_btn{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    background-color: #e50914;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.login_bg_effect{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8)0%,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,0.8)100%
+        );
+    z-index: 1;
+}
+.login_contains{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+.login_contains h1{
+    font-size: 30px;
+}
+.login_contains h1,h2{
+    margin-bottom: 20px;
+}
+.login_contains h2,h3{
+    font-weight: 400;
+}
+.login_contains h2{
+    font-size: 24px;
+}
+.login_contains h3{
+    font-size: 16px;
+}
+.login_inputs{
+    margin: 20px;
+}
+.login_inputs form input{
+    padding: 10px;
+    width: 30%;
+    max-width: 600px;
+    border: none;
+    outline: none;
+}
+.login_int_btn{
+    padding: 9px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    background-color: #e50914;
+    font-weight: 550;
+}
