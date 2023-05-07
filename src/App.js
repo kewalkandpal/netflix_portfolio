@@ -7,7 +7,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import auth  from './firebase/firebase';
 import { logIN, logOut } from './reducer/userAuth';
 import { useDispatch } from 'react-redux';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter  as Router, Routes, Route } from "react-router-dom";
 import Profile from './component/Profile';
 
 function App() {
